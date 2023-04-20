@@ -140,18 +140,16 @@
   }
 
   .red {
-    color: red;
-    background-color: lightcoral;
-    border-color: red;
     border-radius: 25%;
-    border-style: solid;
-    border-width: thin;
     cursor: pointer;
-    outline: none;
+
+    background: hsl(0, 100%, 40%, 0.1);
+    border: thin solid hsl(0, 100%, 40%);
+    color: hsl(0, 100%, 40%);
   }
   
   .red:hover,
   .red:focus-visible {
-    background-color: red;
+    background-color: hsl(0, 100%, 40%);;
     color: white;
   }
